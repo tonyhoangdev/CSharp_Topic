@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Destructors
+// Static members
+// Static classes
+// this and readonly
 namespace OOP_Static
 {
     // Bien tinh
+    // Phuong thuc tinh
     class Cat
     {
         public int Height { get; set; }
@@ -20,9 +25,14 @@ namespace OOP_Static
             Weight = 50;
             count++;
         }
+
+        public static void Speak()
+        {
+            Console.WriteLine("Meow");
+        }
     }
 
-    // Lop tinh, phuong thuc tinh
+    // Lop tinh (Lop tinh chi chua cac thanh phan tinh): Khong tao duoc doi tuong
     static class TienIch
     {
         public static double Pow(double x, int y)
@@ -43,7 +53,7 @@ namespace OOP_Static
 
         public static string MauChinh { get => mauChinh; set => mauChinh = value; }
 
-        // Ham tao tinh
+        // Ham tao tinh: Khoi tao cac member tinh
         static MauSac()
         {
             DateTime now = DateTime.Now;
@@ -77,6 +87,16 @@ namespace OOP_Static
         }
     }
 
+    // Constant members are static by definition.
+    class MathClass
+    {
+        public const int ONE = 1;
+        public const int TWO = 2;
+        public const int THREE = 3;
+        public const int FOUR = 4;
+        public const int FIVE = 5;
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -94,8 +114,15 @@ namespace OOP_Static
             #endregion
 
             #region Vi du ve phuong thuc tinh
-            Console.WriteLine("Pow: " + TienIch.Pow(2, 6));
+            Cat.Speak();
+            #endregion
 
+            #region Vi du ve lop tinh, phuong thuc tinh
+            Console.WriteLine("Pow: " + TienIch.Pow(2, 6));
+            #endregion
+
+            #region Constant members are static by definition.
+            Console.WriteLine("MathClass: " + MathClass.THREE);
             #endregion
 
             #region Vi du ve constructor tinh
