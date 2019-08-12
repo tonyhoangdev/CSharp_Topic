@@ -1,0 +1,37 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E660618C-D516-4744-B1B2-09496091B35D}") = "OOP_Exeptions", "OOP_Exeptions\OOP_Exeptions.csproj", "{5AD3B1E6-54D6-4761-9793-229546C501A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AD3B1E6-54D6-4761-9793-229546C501A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD3B1E6-54D6-4761-9793-229546C501A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD3B1E6-54D6-4761-9793-229546C501A3}.Debug|x64.ActiveCfg = Debug|x64
+		{5AD3B1E6-54D6-4761-9793-229546C501A3}.Debug|x64.Build.0 = Debug|x64
+		{5AD3B1E6-54D6-4761-9793-229546C501A3}.Debug|x86.ActiveCfg = Debug|x86
+		{5AD3B1E6-54D6-4761-9793-229546C501A3}.Debug|x86.Build.0 = Debug|x86
+		{5AD3B1E6-54D6-4761-9793-229546C501A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD3B1E6-54D6-4761-9793-229546C501A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD3B1E6-54D6-4761-9793-229546C501A3}.Release|x64.ActiveCfg = Release|x64
+		{5AD3B1E6-54D6-4761-9793-229546C501A3}.Release|x64.Build.0 = Release|x64
+		{5AD3B1E6-54D6-4761-9793-229546C501A3}.Release|x86.ActiveCfg = Release|x86
+		{5AD3B1E6-54D6-4761-9793-229546C501A3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2C21E7F-CA8C-411E-A2F8-D81892A1C074}
+	EndGlobalSection
+EndGlobal
