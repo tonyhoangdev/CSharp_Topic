@@ -13,10 +13,19 @@ namespace OOP_KeThua
         protected static int legs;
 
         public Animal()
-        { }
+        {
+            Console.WriteLine("Animal created");
+        }
+
+        ~Animal()
+        {
+            Console.WriteLine("Animal deleted");
+        }
 
         public Animal(double w, double h, int l)
         {
+            Console.WriteLine("Animal created");
+
             weight = w;
             height = h;
             legs = l;
@@ -33,14 +42,20 @@ namespace OOP_KeThua
     {
         public Cat()
         {
+            Console.WriteLine("Cat created");
             weight = 400;
             height = 30;
             legs = 2;
         }
 
+        ~Cat()
+        {
+            Console.WriteLine("Cat deleted");
+        }
+
         public Cat(double w, double h, int l) : base(w, h, l)
         {
-
+            Console.WriteLine("Cat created");
         }
         public new void Info() 
         {
